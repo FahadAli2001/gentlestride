@@ -46,7 +46,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(12),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -245,7 +245,10 @@ class _HomePageScreenState extends State<HomePageScreen> {
                   ),
                 ),
               ),
-            )
+            ),
+            SizedBox(
+              height: size.height*0.03,
+            ),
           ],
         ),
       ),
