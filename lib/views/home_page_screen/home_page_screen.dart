@@ -232,14 +232,15 @@ class _HomePageScreenState extends State<HomePageScreen> {
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(30),
                             color: green),
-                            child: Center(
-                              child: Text("See All",
-                               style: GoogleFonts.poppins(
-                              fontSize: 19  ,
-                              fontWeight: FontWeight.w900,
-                              color: Colors.white),
-                              ),
-                            ),
+                        child: Center(
+                          child: Text(
+                            "See All",
+                            style: GoogleFonts.poppins(
+                                fontSize: 19,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white),
+                          ),
+                        ),
                       ))
                     ],
                   ),
@@ -247,7 +248,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
               ),
             ),
             SizedBox(
-              height: size.height*0.03,
+              height: size.height * 0.03,
             ),
           ],
         ),

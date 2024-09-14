@@ -16,20 +16,20 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-    Timer(const Duration(seconds: 2), (){
-      Navigator.push(context, MaterialPageRoute(builder: (context)
-      =>const HomePageScreen()));
+    Timer(const Duration(seconds: 2), () {
+      Navigator.push(context,
+          MaterialPageRoute(builder: (context) => const HomePageScreen()));
     });
     super.initState();
-    
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: white,
       body: Center(
-      child: Image.asset(logo),
-    ),
+        child: Image.asset(logo),
+      ),
     );
   }
 }
